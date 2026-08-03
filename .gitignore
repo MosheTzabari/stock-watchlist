@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Java and Maven
+**/target/
+*.log
+
+# Flutter and Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/coverage/
+
+# Local configuration and exports
+.env
+.env.*
+!.env.example
+*.dump
+*.bson
+*.archive
+*.zip
+__MACOSX/
+
+# Temporary files
+*.tmp
+*.swp
